@@ -6,7 +6,7 @@
 
 **Contents**
 - `main.ipynb` — example solution notebook with preprocessing, models and diagnostics.
-- `podatki_PM.csv` — dataset (must remain in the same folder to run the notebook).
+- `data/podatki_PM.csv` — dataset
 - `Assignment1.pdf` — original assignment sheet.
 - `requirements.txt` — Python dependencies to run the notebook.
 
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 2. Open `main.ipynb` in Jupyter Lab/Notebook and run the cells.
 
-3. The notebook reads `podatki_PM.csv` from the same folder.
+3. The notebook reads `data/podatki_PM.csv`.
 
 **Evaluation metrics**
 - Report: R², RMSE and MAE. Compare models over an expanding-window time split.
